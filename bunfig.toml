@@ -1,0 +1,1 @@
+preload = ["./plugin1.ts", "./plugin2.ts"]
