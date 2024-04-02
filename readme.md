@@ -25,7 +25,7 @@ I will close the bug I will report for this if that ends up being the case.
 
 ## Bun GitHub bug
 
-I will add the link here once I've posted the bug.
+https://github.com/oven-sh/bun/issues/9863
 
 ## See also
 
