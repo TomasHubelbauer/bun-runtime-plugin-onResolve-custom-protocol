@@ -1,4 +1,5 @@
-const url = new URL("./index.ts", import.meta.url);
+const [, file] = Bun.argv;
+const url = new URL(file, import.meta.url);
 const script = await (await fetch(url.href)).text();
 const regexp = /(?<=['"])demo:\w+(?=['"])/g;
 const matches = script.match(regexp);
